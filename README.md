@@ -29,6 +29,10 @@ Copilot specific skills will be in the `copilot` folder and are designed to help
 
 ## Supported skills
 
+### Copilot
+
+- **[m365-file-edit-prompt](./skills/copilot/m365-file-edit-prompt)**
+
 ### Productivity
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved.
