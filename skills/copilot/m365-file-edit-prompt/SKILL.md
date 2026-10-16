@@ -34,6 +34,7 @@ prompts for Microsoft 365 Copilot in the relevant app.
 ## Output Requirements
 
 - Return one Markdown file containing all handoff prompts.
+- Add the preamble instructions once at the top of the file.
 - Give every prompt a concise, descriptive Markdown heading.
 - Place each prompt’s complete text inside its own fenced text code block.
 - Present prompts in execution order.
@@ -42,6 +43,18 @@ prompts for Microsoft 365 Copilot in the relevant app.
 - Output only the titled prompts; do not add introductions, explanations, usage guidance, verification checklists, or
   closing notes.
 - Use direct, imperative language suitable for pasting into Microsoft 365 Copilot.
+
+## Preamble Instructions
+
+These are instructions that are to be read by Copilot in the target Microsoft 365 app.
+
+```text
+What follows is a series of prompts.
+
+Evaluate each prompt sequentially. If the user rejects edits; pause and ask the user what to do.
+If the user accepts the edits then ask the user if they want to continue. This allows the user to make
+whatever manaul edits they require before continuing.
+```
 
 ## Output Format
 
