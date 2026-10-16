@@ -8,7 +8,8 @@ category: Productivity / Document Editing
 
 ## Purpose
 
-Convert agreed file edits from the current conversation into a single Markdown file containing separate, sequential prompts for Microsoft 365 Copilot in the relevant app.
+Convert agreed file edits from the current conversation into a single Markdown file containing separate, sequential
+prompts for Microsoft 365 Copilot in the relevant app.
 
 ## Instructions
 
@@ -25,7 +26,8 @@ Convert agreed file edits from the current conversation into a single Markdown f
 8. Create a separate prompt for every distinct change; do not combine prompts.
 9. Include enough context in each prompt for it to be executed independently at its intended step.
 10. For substantial or destructive changes, instruct in-app Copilot to preview the proposed change before applying it.
-11. Include relevant preservation requirements within each prompt, such as retaining unaffected content, formulas, styles, links, comments, or accessibility features.
+11. Include relevant preservation requirements within each prompt, such as retaining unaffected content, formulas,
+    styles, links, comments, or accessibility features.
 12. Do not invent missing file details, content, locations, or requirements.
 13. Do not claim that any edit has already been completed.
 
@@ -37,7 +39,8 @@ Convert agreed file edits from the current conversation into a single Markdown f
 - Present prompts in execution order.
 - Keep every prompt separate, even when several prompts affect the same section, worksheet, slide, or file.
 - Separate content-editing prompts from formatting prompts.
-- Output only the titled prompts; do not add introductions, explanations, usage guidance, verification checklists, or closing notes.
+- Output only the titled prompts; do not add introductions, explanations, usage guidance, verification checklists, or
+  closing notes.
 - Use direct, imperative language suitable for pasting into Microsoft 365 Copilot.
 
 ## Output Format
