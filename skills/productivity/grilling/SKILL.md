@@ -1,7 +1,8 @@
 ---
 name: grilling
-description: Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.
+description: Interview the user through a round-based design tree whenever they want to explore, structure, clarify, challenge, stress-test, evaluate, or plan a problem, decision, proposal, architecture, project, strategy, or idea—even when they do not say “grill”. Ask all currently unblocked questions, recommend an answer for each, and use the skill’s exact output format.
 version: v1.3.1
+modified: true
 ---
 
 Interview the user relentlessly until you reach a shared understanding. Map this as a **design tree**: every decision branches into the decisions that hang off it.
