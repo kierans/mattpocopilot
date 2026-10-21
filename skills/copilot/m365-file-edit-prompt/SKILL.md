@@ -33,7 +33,7 @@ prompts for Microsoft 365 Copilot in the relevant app.
 
 ## Output Requirements
 
-- Return one Markdown file containing all handoff prompts.
+- Return one Markdown formatted response containing all handoff prompts.
 - Add the preamble instructions once at the top of the file.
 - Give every prompt a concise, descriptive Markdown heading.
 - Place each prompt’s complete text inside its own fenced text code block.
